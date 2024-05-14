@@ -1,2 +1,5 @@
-config SHIELD_MY_BOARD
-    def_bool $(shields_list_contains,my_board)
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_TVMOTE
+    def_bool $(shields_list_contains,tvmote)

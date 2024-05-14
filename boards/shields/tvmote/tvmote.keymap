@@ -29,16 +29,13 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_layer_raise_1 {
+        combo_lr_1 {
             timeout-ms = <50>;
             key-positions = <14 24>;
             bindings = <&lt 1 ESC>;
         };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-        combo_layer_raise_1 {
+        
+        combo_lr_2 {
             timeout-ms = <50>;
             key-positions = <15 25>;
             bindings = <&lt 2 BSPC>;
@@ -76,7 +73,7 @@
         //│ CAPS     │  7       │  8       │  9       │          │   │          │ LEFT     │ DOWN     │ RIGHT    │  ;       │
            &caps_word  &kp N7     &kp N8     &kp N9     &trans         &trans     &kp LARW   &kp DARW   &kp RARW   &kp SEMI
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                                        &kp ESC        &lt 1    
+                                                        &kp ESC        &mo 1    
         //                                            ╰──────────╯   ╰──────────╯
             >;
         };
@@ -93,7 +90,7 @@
         //│          │  *       │  &       │  %       │          │   │          │  _       │  +       │  │       │          │
             &trans     &kp ASTRK  &kp AMPS   &kp PRCNT  &trans         &trans     &kp UNDER  &kp PLUS   &kp PIPE   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                                        &lt 2         &lt 1    
+                                                        &mo 2         &mo 1    
         //                                            ╰──────────╯   ╰──────────╯
             >;
         };

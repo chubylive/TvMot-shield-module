@@ -1,6 +1,9 @@
-if SHIELD_MY_BOARD
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_TVMOTE
 
 config ZMK_KEYBOARD_NAME
-    default "TvMote"
+    default "tvmote"
 
 endif
