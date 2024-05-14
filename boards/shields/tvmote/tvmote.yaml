@@ -1,0 +1,117 @@
+layers:
+  default:
+  - - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - {t: P, h: BSPC}
+  - - {t: A, h: LSHFT}
+    - {t: S, h: LALT}
+    - {t: D, h: LCTRL}
+    - {t: F, h: LGUI}
+    - G
+    - H
+    - {t: J, h: RGUI}
+    - {t: K, h: RCTRL}
+    - {t: L, h: RALT}
+    - {t: '''', h: RSHFT}
+  - [Z, X, C, V, B, N, M, ',', ., /]
+  - [ENTER, SPACE]
+  right:
+  - [INS, '1', '2', '3', '0', HOME, PG DN, PG UP, END, ':']
+  - - DEL
+    - '4'
+    - '5'
+    - '6'
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - UARW
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - '&caps_word'
+    - '7'
+    - '8'
+    - '9'
+    - {type: held}
+    - {t: ▽, type: trans}
+    - LARW
+    - DARW
+    - RARW
+    - ;
+  - [ESC, '&lt 1']
+  left:
+  - - {t: ▽, type: trans}
+    - '['
+    - '{'
+    - '}'
+    - {t: ▽, type: trans}
+    - ^
+    - (
+    - )
+    - ']'
+    - '~'
+  - - '!'
+    - '@'
+    - '#'
+    - $
+    - {t: ▽, type: trans}
+    - {type: held}
+    - '-'
+    - '='
+    - \
+    - '`'
+  - - {t: ▽, type: trans}
+    - '*'
+    - '&'
+    - '%'
+    - {t: ▽, type: trans}
+    - {type: held}
+    - _
+    - +
+    - '|'
+    - {t: ▽, type: trans}
+  - ['&lt 2', '&lt 1']
+  tri:
+  - - '&sys_reset'
+    - {t: ▽, type: trans}
+    - {t: BT, h: '0'}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&sys_reset'
+  - - '&bootloader'
+    - {t: ▽, type: trans}
+    - {t: BT, h: '1'}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&bootloader'
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: BT, h: '2'}
+    - BT CLR
+    - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+- p: [14, 24]
+  k: {t: ESC, h: right}
+- p: [15, 25]
+  k: {t: BSPC, h: left}
