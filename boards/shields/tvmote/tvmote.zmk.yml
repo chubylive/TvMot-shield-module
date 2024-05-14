@@ -1,0 +1,10 @@
+file_format: "1"
+id: tvmote
+name: TvMote
+type: shield
+url: 
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
