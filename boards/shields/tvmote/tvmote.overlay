@@ -45,4 +45,11 @@
             , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+    
+    default_layout: default_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&five_column_transform>;
+        kscan = <&kscan_0>;
+    };
 };
