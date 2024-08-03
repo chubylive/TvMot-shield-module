@@ -50,6 +50,6 @@
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&five_column_transform>;
-        kscan = <&kscan_0>;
+        kscan = <&kscan0>;
     };
 };
